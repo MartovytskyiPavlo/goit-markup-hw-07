@@ -6,11 +6,11 @@
     display: flex;
     z-index: 0;
 
-    .image {
+    .works-list__image {
         display: block;
     }
 
-    .item:not(:last-child) {
+    .works-list__item:not(:last-child) {
         margin-right: 30px;
     }
 }

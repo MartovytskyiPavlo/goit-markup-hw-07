@@ -2,16 +2,6 @@
     background-color: var(--footer-bg);
     padding-top: 60px;
     padding-bottom: 60px;
-
-    .connect {
-        color: var(--primary-white-color);
-        font-weight: 700;
-        font-size: 14px;
-        /* 16px/14px=1.14 */
-        line-height: 1.14;
-        text-transform: uppercase;
-        margin-bottom: 20px;
-    }
 }
 
 .address {
@@ -20,15 +10,15 @@
     line-height: 1.71;
     /* 24px/14px=1.71 */
 
-    .item:not(:last-child) {
+    .address__item:not(:last-child) {
         margin-bottom: 9px;
     }
     
-    .text {
+    .address__text {
         color: var(--primary-white-color);
     }
     
-    .link {
+    .address__link {
         color: var(--tertiary-text-color);
         text-decoration: none;
     
@@ -43,6 +33,16 @@
 
 .footer-social {
     margin-left: 70px;
+
+    .connect {
+        color: var(--primary-white-color);
+        font-weight: 700;
+        font-size: 14px;
+        /* 16px/14px=1.14 */
+        line-height: 1.14;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
 }
 
 .footer-contact-form {

@@ -3,12 +3,12 @@
     display: flex;
     justify-items: center;
 
-    .icon {
+    .social__icon {
         fill: currentColor;
     }
 }
 
-.social-link {
+.social__link {
     display: inline-block;
     width: 44px;
     height: 44px;
@@ -25,11 +25,11 @@
     }
 }
 
-.social-link--dark {
+.social__link_theme_dark {
     color: var(--primary-white-color);
     background: rgba(255, 255, 255, 0.1);
 }
 
-.social-item:not(:last-child) {
+.social__item:not(:last-child) {
     margin-right: 10px;
 }

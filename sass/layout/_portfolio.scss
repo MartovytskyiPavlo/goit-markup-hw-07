@@ -3,11 +3,11 @@
     flex-wrap: wrap;
     margin-top: 50px;
 
-    .image {
+    .portfolio__image {
         display: block;
     }
 
-    .name {
+    .portfolio__name {
         margin-bottom: 0;
     
         color: var(--primary-text-color);
@@ -18,7 +18,7 @@
         letter-spacing: 0.06em;
     }
     
-    .tag {
+    .portfolio__tag {
         margin-top: 4px;
     
         color: var(--secondary-text-color);
@@ -26,13 +26,12 @@
         line-height: 1.88;
         /* 30px/16px=1.88 */
     }
-    
-        
+            
 
     .flex-element {
         width: 370px;
 
-        .description {
+        .portfolio__description {
             padding-top: 20px;
             padding-left: 24px;
             padding-right: 24px;
@@ -49,9 +48,10 @@
         }
     }
 
-    .item {
+    .portfolio__item {
         display: block;
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        text-decoration: none;
 
         &:hover,
         &:focus {

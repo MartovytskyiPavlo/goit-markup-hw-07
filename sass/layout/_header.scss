@@ -11,11 +11,11 @@
 .site-nav {
     display: flex;
     
-    .item:not(:last-child) {
+    .site-nav__item:not(:last-child) {
         margin-right: 50px;
     }
 
-    .link {
+    .site-nav__link {
         display: block;
         padding-top: 32px;
     
@@ -62,11 +62,11 @@
     display: flex;
     margin-left: auto;
 
-    .item:not(:last-child) {
+    .contacts__item:not(:last-child) {
         margin-right: 30px;
     }
 
-    .link {
+    .contacts__link {
         display: flex;
         padding-top: 32px;
         padding-bottom: 32px;
@@ -85,7 +85,7 @@
         }
     }
 
-    .icon {
+    .contacts__icon {
         margin-right: 10px;
         fill: currentColor;
     }

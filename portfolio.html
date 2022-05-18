@@ -24,30 +24,34 @@
             <div class="container main-nav">
                 <nav class="main-nav">
                     <a href="./index.html" class="logo link"
-                        >Web<span class="logo-header">Studio</span></a
+                        >Web<span class="logo__header">Studio</span></a
                     >
 
                     <ul class="site-nav">
-                        <li class="item"><a href="./index.html" class="link">Студия</a></li>
-                        <li class="item">
-                            <a href="./portfolio.html" class="link current">Портфолио</a>
+                        <li class="site-nav__item">
+                            <a href="./index.html" class="site-nav__link">Студия</a>
                         </li>
-                        <li class="item"><a href="./contact.html" class="link">Контакты</a></li>
+                        <li class="site-nav__item">
+                            <a href="./portfolio.html" class="site-nav__link current">Портфолио</a>
+                        </li>
+                        <li class="site-nav__item">
+                            <a href="./contact.html" class="site-nav__link">Контакты</a>
+                        </li>
                     </ul>
                 </nav>
 
                 <ul class="contacts">
-                    <li class="item">
-                        <a href="mailto:info@devstudio.com" class="link">
-                            <svg class="icon" width="16" height="16">
+                    <li class="contacts__item">
+                        <a href="mailto:info@devstudio.com" class="contacts__link">
+                            <svg class="contacts__icon" width="16" height="16">
                                 <use href="./images/sprite.svg#envelope"></use>
                             </svg>
                             info@devstudio.com</a
                         >
                     </li>
-                    <li class="item">
-                        <a href="tel:+380961111111" class="link">
-                            <svg class="icon" width="16" height="16">
+                    <li class="contacts__item">
+                        <a href="tel:+380961111111" class="contacts__link">
+                            <svg class="contacts__icon" width="16" height="16">
                                 <use href="./images/sprite.svg#smartphone"></use></svg
                             >+38 096 111 11 11</a
                         >
@@ -61,26 +65,26 @@
                 <div class="container">
                     <h1 class="visually-hidden">Портфолио</h1>
                     <ul class="filter list">
-                        <li class="item">
-                            <button type="button" class="button">Все</button>
+                        <li class="filter__item">
+                            <button type="button" class="filter__button">Все</button>
                         </li>
-                        <li class="item">
-                            <button type="button" class="button">Веб-сайты</button>
+                        <li class="filter__item">
+                            <button type="button" class="filter__button">Веб-сайты</button>
                         </li>
-                        <li class="item">
-                            <button type="button" class="button">Приложения</button>
+                        <li class="filter__item">
+                            <button type="button" class="filter__button">Приложения</button>
                         </li>
-                        <li class="item">
-                            <button type="button" class="button">Дизайн</button>
+                        <li class="filter__item">
+                            <button type="button" class="filter__button">Дизайн</button>
                         </li>
-                        <li class="item">
-                            <button type="button" class="button">Маркетинг</button>
+                        <li class="filter__item">
+                            <button type="button" class="filter__button">Маркетинг</button>
                         </li>
                     </ul>
 
                     <ul class="portfolio list">
                         <li class="flex-element">
-                            <a href="" class="item">
+                            <a href="" class="portfolio__item">
                                 <div class="box">
                                     <div class="overlay-message">
                                         <p>
@@ -94,17 +98,17 @@
                                         src="images/portfolio1.jpg"
                                         alt="Технокряк"
                                         width="370"
-                                        class="image"
+                                        class="portfolio__image"
                                     />
                                 </div>
-                                <div class="description">
-                                    <h2 class="name">Технокряк</h2>
-                                    <p class="tag">Веб-сайт</p>
+                                <div class="portfolio__description">
+                                    <h2 class="portfolio__name">Технокряк</h2>
+                                    <p class="portfolio__tag">Веб-сайт</p>
                                 </div>
                             </a>
                         </li>
                         <li class="flex-element">
-                            <a href="" class="item">
+                            <a href="" class="portfolio__item">
                                 <div class="box">
                                     <div class="overlay-message">
                                         <p>
@@ -118,17 +122,19 @@
                                         src="images/portfolio2.jpg"
                                         alt="Постер New Orlean vs Golden Star"
                                         width="370"
-                                        class="image"
+                                        class="portfolio__image"
                                     />
                                 </div>
-                                <div class="description">
-                                    <h2 class="name">Постер New Orlean vs Golden Star</h2>
-                                    <p class="tag">Дизайн</p>
+                                <div class="portfolio__description">
+                                    <h2 class="portfolio__name">
+                                        Постер New Orlean vs Golden Star
+                                    </h2>
+                                    <p class="portfolio__tag">Дизайн</p>
                                 </div>
                             </a>
                         </li>
                         <li class="flex-element">
-                            <a href="" class="item">
+                            <a href="" class="portfolio__item">
                                 <div class="box">
                                     <div class="overlay-message">
                                         <p>
@@ -142,17 +148,17 @@
                                         src="images/portfolio3.jpg"
                                         alt="Ресторан Seafood"
                                         width="370"
-                                        class="image"
+                                        class="portfolio__image"
                                     />
                                 </div>
-                                <div class="description">
-                                    <h2 class="name">Ресторан Seafood</h2>
-                                    <p class="tag">Приложение</p>
+                                <div class="portfolio__description">
+                                    <h2 class="portfolio__name">Ресторан Seafood</h2>
+                                    <p class="portfolio__tag">Приложение</p>
                                 </div>
                             </a>
                         </li>
                         <li class="flex-element">
-                            <a href="" class="item">
+                            <a href="" class="portfolio__item">
                                 <div class="box">
                                     <div class="overlay-message">
                                         <p>
@@ -166,17 +172,17 @@
                                         src="images/portfolio4.jpg"
                                         alt="Проект Prime"
                                         width="370"
-                                        class="image"
+                                        class="portfolio__image"
                                     />
                                 </div>
-                                <div class="description">
-                                    <h2 class="name">Проект Prime</h2>
-                                    <p class="tag">Маркетинг</p>
+                                <div class="portfolio__description">
+                                    <h2 class="portfolio__name">Проект Prime</h2>
+                                    <p class="portfolio__tag">Маркетинг</p>
                                 </div>
                             </a>
                         </li>
                         <li class="flex-element">
-                            <a href="" class="item">
+                            <a href="" class="portfolio__item">
                                 <div class="box">
                                     <div class="overlay-message">
                                         <p>
@@ -190,17 +196,17 @@
                                         src="images/portfolio5.jpg"
                                         alt="Проект Boxes"
                                         width="370"
-                                        class="image"
+                                        class="portfolio__image"
                                     />
                                 </div>
-                                <div class="description">
-                                    <h2 class="name">Проект Boxes</h2>
-                                    <p class="tag">Приложение</p>
+                                <div class="portfolio__description">
+                                    <h2 class="portfolio__name">Проект Boxes</h2>
+                                    <p class="portfolio__tag">Приложение</p>
                                 </div>
                             </a>
                         </li>
                         <li class="flex-element">
-                            <a href="" class="item">
+                            <a href="" class="portfolio__item">
                                 <div class="box">
                                     <div class="overlay-message">
                                         <p>
@@ -214,17 +220,17 @@
                                         src="images/portfolio6.jpg"
                                         alt="Inspiration has no Borders"
                                         width="370"
-                                        class="image"
+                                        class="portfolio__image"
                                     />
                                 </div>
-                                <div class="description">
-                                    <h2 class="name">Inspiration has no Borders</h2>
-                                    <p class="tag">Веб-сайт</p>
+                                <div class="portfolio__description">
+                                    <h2 class="portfolio__name">Inspiration has no Borders</h2>
+                                    <p class="portfolio__tag">Веб-сайт</p>
                                 </div>
                             </a>
                         </li>
                         <li class="flex-element">
-                            <a href="" class="item">
+                            <a href="" class="portfolio__item">
                                 <div class="box">
                                     <div class="overlay-message">
                                         <p>
@@ -238,17 +244,17 @@
                                         src="images/portfolio7.jpg"
                                         width="370"
                                         alt="Издание Limited Edition"
-                                        class="image"
+                                        class="portfolio__image"
                                     />
                                 </div>
-                                <div class="description">
-                                    <h2 class="name">Издание Limited Edition</h2>
-                                    <p class="tag">Дизайн</p>
+                                <div class="portfolio__description">
+                                    <h2 class="portfolio__name">Издание Limited Edition</h2>
+                                    <p class="portfolio__tag">Дизайн</p>
                                 </div>
                             </a>
                         </li>
                         <li class="flex-element">
-                            <a href="" class="item">
+                            <a href="" class="portfolio__item">
                                 <div class="box">
                                     <div class="overlay-message">
                                         <p>
@@ -262,17 +268,17 @@
                                         src="images/portfolio8.jpg"
                                         alt="Проект LAB"
                                         width="370"
-                                        class="image"
+                                        class="portfolio__image"
                                     />
                                 </div>
-                                <div class="description">
-                                    <h2 class="name">Проект LAB</h2>
-                                    <p class="tag">Маркетинг</p>
+                                <div class="portfolio__description">
+                                    <h2 class="portfolio__name">Проект LAB</h2>
+                                    <p class="portfolio__tag">Маркетинг</p>
                                 </div>
                             </a>
                         </li>
                         <li class="flex-element">
-                            <a href="" class="item">
+                            <a href="" class="portfolio__item">
                                 <div class="box">
                                     <div class="overlay-message">
                                         <p>
@@ -286,12 +292,12 @@
                                         src="images/portfolio9.jpg"
                                         alt="Growing Business"
                                         width="370"
-                                        class="image"
+                                        class="portfolio__image"
                                     />
                                 </div>
-                                <div class="description">
-                                    <h2 class="name">Growing Business</h2>
-                                    <p class="tag">Приложение</p>
+                                <div class="portfolio__description">
+                                    <h2 class="portfolio__name">Growing Business</h2>
+                                    <p class="portfolio__tag">Приложение</p>
                                 </div>
                             </a>
                         </li>
@@ -305,21 +311,23 @@
                 <div class="flex-container">
                     <div>
                         <a href="./index.html" class="logo"
-                            >Web<span class="logo-footer">Studio</span></a
+                            >Web<span class="logo__footer">Studio</span></a
                         >
 
                         <address class="address">
                             <ul>
-                                <li class="item">
-                                    <p class="text">г. Киев, пр-т Леси Украинки, 26</p>
+                                <li class="address__item">
+                                    <p class="address__text">г. Киев, пр-т Леси Украинки, 26</p>
                                 </li>
-                                <li class="item">
-                                    <a href="mailto:info@devstudio.com" class="link"
+                                <li class="address__item">
+                                    <a href="mailto:info@devstudio.com" class="address__link"
                                         >info@devstudio.com</a
                                     >
                                 </li>
-                                <li class="item">
-                                    <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+                                <li class="address__item">
+                                    <a href="tel:+380961111111" class="address__link"
+                                        >+38 096 111 11 11</a
+                                    >
                                 </li>
                             </ul>
                         </address>
@@ -328,27 +336,27 @@
                     <div class="footer-social">
                         <p class="connect">присоединяйтесь</p>
                         <ul class="social">
-                            <li class="social-item">
-                                <a href="" class="social-link social-link--dark">
-                                    <svg class="icon" width="20" height="20">
+                            <li class="social__item">
+                                <a href="" class="social__link social__link_theme_dark">
+                                    <svg class="social__icon" width="20" height="20">
                                         <use href="./images/sprite.svg#instagram"></use></svg
                                 ></a>
                             </li>
-                            <li class="social-item">
-                                <a href="" class="social-link social-link--dark">
-                                    <svg class="icon" width="20" height="20">
+                            <li class="social__item">
+                                <a href="" class="social__link social__link_theme_dark">
+                                    <svg class="social__icon" width="20" height="20">
                                         <use href="./images/sprite.svg#twitter"></use></svg
                                 ></a>
                             </li>
-                            <li class="social-item">
-                                <a href="" class="social-link social-link--dark">
-                                    <svg class="icon" width="20" height="20">
+                            <li class="social__item">
+                                <a href="" class="social__link social__link_theme_dark">
+                                    <svg class="social__icon" width="20" height="20">
                                         <use href="./images/sprite.svg#facebook"></use></svg
                                 ></a>
                             </li>
-                            <li class="social-item">
-                                <a href="" class="social-link social-link--dark">
-                                    <svg class="icon" width="20" height="20">
+                            <li class="social__item">
+                                <a href="" class="social__link social__link_theme_dark">
+                                    <svg class="social__icon" width="20" height="20">
                                         <use href="./images/sprite.svg#linkedin"></use></svg
                                 ></a>
                             </li>

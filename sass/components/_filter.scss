@@ -2,11 +2,11 @@
     display: flex;
     justify-content: center;
 
-    .item+.item {
+    .filter__item+.filter__item {
         margin-left: 8px;
     }
 
-    .button {
+    .filter__button {
         color: var(--primary-text-color);
         background-color: var(--secondary-bg-color);
         font-weight: 500;
